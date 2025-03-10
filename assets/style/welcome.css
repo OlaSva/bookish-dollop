@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #010a01;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1430px;
+    margin: 0 auto;
+}
+
+.container-big {
+    width: 1720px;
+    margin: 0 auto;
+}
+
+header .container-big {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+header .logo {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+header .logo i {
+    font-size: 48px;
+    color: #40AA54;
+}
+
+header a {
+    font-size: 24px;
+}
+
+header .navigation {
+    display: flex;
+    gap: 56px;
+}
+
+header .links,
+header .links .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}   
+header .cart,
+header .like {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .cart{background-color:#ECF7EE;}
+header .cart i{color: #40AA54;}
+header .like{background-color:#FFF0EE;}
+header .like i{color: #FF7B6A;}
+
+header{
+    padding: 50px 0;
+}
+ section.welcome .container{
+    background: url(../img/background.png);
+    height: 674px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 140px;
+    border-radius: 50px;
+}
+
+section.welcome .container h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+section.welcome .container p{
+    color: #40AA54;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 56px;
+}
+
+section.welcome .container input,
+section.welcome .container button{
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+section.welcome .container input{
+    padding-left: 78px;
+    width: 734px;
+}
+
+section.welcome .container button{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-weight: 700;
+    color: white;
+    background-color: #40AA54;
+}
+
+section.welcome .container form{
+    display: flex;
+    position: relative;
+
+}
+section.welcome.container form i{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+}
+
+section.welcome .container input::placeholder{
+    color: #ABABAB;
+}
+
+.title .left,
+title .rigth{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    gap: 20px;
+}
+
+.title .rigth. circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F1f1;
+    font-size: 20px;
+    font-weight: 400;
+} 
+.title .rigth .circle:nth-child(2){background-color: #40AA54;}
+.title .rigth .circle:nth-child(2) i{color: white;}
+section.category .categories{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+section.category .categories .category-item{
+    border: 2px solid #ABABAB;
+    width: 270px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 50px;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+section.category .categories img{height: 200px;}
+.title h2{
+    font-size: 36px;
+}
+.title a{
+    background: #40AA54;
+    padding: 10px 24px;
+    display: flex;
+    gap: 20px;
+    align-items: center; border-radius: 17px;
+    font-size: 24px;
+    color: white;
+}
+.title a i{
+    color: white;
+}
